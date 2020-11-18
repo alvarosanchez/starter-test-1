@@ -18,6 +18,7 @@
     <jdk.version>11</jdk.version>
     <release.version>11</release.version>
     <micronaut.version>2.2.0.BUILD-SNAPSHOT</micronaut.version>
+    <micronaut-maven-plugin.version>1.1.0.BUILD-SNAPSHOT</micronaut-maven-plugin.version>
     <exec.mainClass>com.example.Application</exec.mainClass>
     <jib.docker.image>${project.name}</jib.docker.image>
     <jib.docker.tag>${project.version}</jib.docker.tag>
@@ -98,7 +99,6 @@
       <plugin>
         <groupId>io.micronaut.build</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
-         <version>1.1.0.BUILD-SNAPSHOT</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
